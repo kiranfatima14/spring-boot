@@ -15,10 +15,11 @@ public class Coustomers {
 	public Technologies getTechdetail() {
 		return techdetail;
 	}
-	public void setTechdetail(Technologies techdetail) {
-		//this.techdetail = techdetail;
-	}
+	
 	@Autowired
+	public void setTechdetail(Technologies techdetail) {
+		this.techdetail = techdetail;
+	}
 	
 	public int getCustid() {
 		return custid;
